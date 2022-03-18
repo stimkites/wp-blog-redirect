@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TouchTech\n"
+"POT-Creation-Date: 2018-10-07 21:18+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _n;__;_x;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: index.php\n"
+"X-Poedit-SearchPath-1: inc/class-checkout-processing.php\n"
+"X-Poedit-SearchPath-2: inc/sender.php\n"
+"X-Poedit-SearchPath-3: inc/load.php\n"
+"X-Poedit-SearchPath-4: inc/collector.php\n"
+"X-Poedit-SearchPath-5: inc/ajax_processing.php\n"
+"X-Poedit-SearchPath-6: inc/ml-compat.php\n"
+"X-Poedit-SearchPath-7: inc/cart.php\n"
+"X-Poedit-SearchPath-8: inc/taxonomy-fields.php\n"
+"X-Poedit-SearchPath-9: inc/class-log.php\n"
+"X-Poedit-SearchPath-10: inc/api/tcht-api-ext.php\n"
+"X-Poedit-SearchPath-11: inc/api/class-tcht-api-client.php\n"
+"X-Poedit-SearchPath-12: inc/tpl/form_fields.php\n"
+"X-Poedit-SearchPath-13: inc/tpl/general_settings.php\n"
+"X-Poedit-SearchPath-14: inc/tpl/vmm_notes.html\n"
+
+#: inc/ajax_processing.php:2
+msgid "Ajax requires Wordpress to be set up and running."
+msgstr "Ajax kräver Wordpress sättas igång."
+
+#: inc/ajax_processing.php:6
+msgid "authorizatrion is incorrect."
+msgstr "authorizatrion är felaktig."
+
+#: inc/ajax_processing.php:158
+msgid "Menu items were successfully checked"
+msgstr "Menyalternativen kontrollerades med framgång"
+
+#: inc/ajax_processing.php:164
+msgid "Your settings were saved successfully"
+msgstr "Dina inställningar har sparats framgångsrikt"
+
+#: inc/ajax_processing.php:167
+msgid "AJAX action is not recognized"
+msgstr "AJAX åtgärder inte igen"
+
+#: inc/ajax_processing.php:169
+msgid "no ajax action is defined"
+msgstr "ingen AJAX åtgärd definieras"
+
+#: inc/api/tcht-api-ext.php:391
+msgid "The cart content was not found."
+msgstr "Innehållet i vagnen kunde inte hittas."
+
+#: inc/cart.php:103
+#, php-format
+msgid "Item [%s] is out of stock."
+msgstr "Punkt [% s] är slut."
+
+#: inc/class-checkout-processing.php:86
+msgid "Complete"
+msgstr "Din beställning"
+
+#: inc/class-checkout-processing.php:102 inc/class-checkout-processing.php:177
+#: inc/class-checkout-processing.php:192
+msgid "Vendo store code"
+msgstr "Vendo butikskod"
+
+#: inc/class-checkout-processing.php:201 inc/class-checkout-processing.php:227
+msgid "Vendo received"
+msgstr "Vendo mottog"
+
+#: inc/class-checkout-processing.php:210 inc/class-checkout-processing.php:228
+msgid "Vendo shipped"
+msgstr "Vendo levereras"
+
+#: inc/class-checkout-processing.php:241
+msgid "VENDO order sync failure. Order #"
+msgstr "VENDO order synkroniseringsfel. Order #"
+
+#: inc/class-checkout-processing.php:296
+msgid "Order status has been successfully synced to Vendo server"
+msgstr "Orderstatus har synkroniserats med Vendo-servern"
+
+#: inc/class-checkout-processing.php:509
+msgid "Order created from Vendo App"
+msgstr "Order skapad från Vendo App"
+
+#: inc/load.php:51
+msgid "Menus"
+msgstr "Menus"
+
+#: inc/load.php:158
+msgid "Cart content was successfully removed from DB"
+msgstr "Kundvagn innehåll har tagits bort från DB"
+
+#: inc/load.php:161
+msgid "Cart content was not removed from DB!"
+msgstr "Kundvagn innehåll togs inte bort från DB!"
+
+#: inc/load.php:269
+msgid "WooCommerce plugin is required."
+msgstr "WooCommerce plugin krävs."
+
+#: inc/load.php:270
+msgid ""
+"Please, install and activate WooCommerce plugin first. You may use this link "
+"to download and"
+msgstr ""
+"Vänligen, installera och aktivera WooCommerce plugin först. Du kan använda "
+"denna länk för att hämta och"
+
+#: inc/load.php:270
+msgid "Install Woocommerce"
+msgstr "Installera Woocommerce"
+
+#: inc/load.php:344
+msgid "No menu items found for Vendo App"
+msgstr "Inga menyalternativ hittades för Vendo App"
+
+#: inc/load.php:345
+msgid "Vendo Top menu items list is empty"
+msgstr "Vendo Top menyobjekt listan är tom"
+
+#: inc/load.php:349
+msgid "No categories for creating Vendo App menu items found"
+msgstr "Inga kategorier för appmenyalternativ hittades"
+
+#: inc/load.php:363
+msgid "Hero image cannot be used with top category"
+msgstr "Hero-bilden kan inte användas med toppkategori"
+
+#: inc/load.php:366
+msgid "Tile image must be provided for top category"
+msgstr "Tegelbilden måste tillhandahållas för toppkategori"
+
+#: inc/load.php:369
+msgid "Categories or filters cannot be assigned to top menu items."
+msgstr "Kategorier eller filter kan inte tilldelas toppmenyalternativ."
+
+#: inc/load.php:372
+msgid "No submenu found for top category"
+msgstr "Ingen undermeny hittad för toppkategori"
+
+#: inc/load.php:376
+msgid "Tile image is missing for category"
+msgstr "Kakel bild saknas för kategori"
+
+#: inc/load.php:379
+msgid "Hero image must be provided for category"
+msgstr "Hero-bilden måste anges för kategori"
+
+#: inc/load.php:382
+#, fuzzy
+#| msgid "No categories yet here..."
+msgid "No categories defined for category"
+msgstr "Inga kategorier men här ..."
+
+#: inc/load.php:387
+msgid "Categories check is successful! Proceeding to sync..."
+msgstr "Kategorier kontrollen är framgångsrik! Fortsätter att synkronisera ..."
+
+#: inc/taxonomy-fields.php:115
+msgid "Tile"
+msgstr "Tile"
+
+#: inc/taxonomy-fields.php:190
+msgid "Fetching products data from Vendo server"
+msgstr "Hämta produktdata från Vendo-servern"
+
+#: inc/taxonomy-fields.php:191
+msgid "Comparing data"
+msgstr "Jämförande data"
+
+#: inc/taxonomy-fields.php:192
+msgid "Cleaning info on Vendo"
+msgstr "Rengöring info på Vendo"
+
+#: inc/taxonomy-fields.php:193
+msgid "Uploading Menu Items"
+msgstr "Överför menyalternativ"
+
+#: inc/taxonomy-fields.php:194
+msgid "Uploading Menus"
+msgstr "Överför menyer"
+
+#: inc/taxonomy-fields.php:195
+msgid "Uploading Attributes"
+msgstr "Uppladdning av attribut"
+
+#: inc/taxonomy-fields.php:196
+msgid "Uploading Stock Locations"
+msgstr "Uppladdning av lagerplatser"
+
+#: inc/taxonomy-fields.php:197
+msgid "Synchronizing inventory"
+msgstr "Synkroniserad inventering"
+
+#: inc/taxonomy-fields.php:198
+msgid "Synchronizing products"
+msgstr "Synkronisera produkter"
+
+#: inc/taxonomy-fields.php:200
+msgid "Select picture"
+msgstr "Välj bild"
+
+#: inc/taxonomy-fields.php:201
+msgid "Set selected picture"
+msgstr "Ställ in vald bild"
+
+#: inc/taxonomy-fields.php:202
+msgid "Checking categories as menu items..."
+msgstr "Kontrollera kategorier som menyalternativ ..."
+
+#: inc/taxonomy-fields.php:203
+msgid "Add welcome screen language"
+msgstr "Lägg till välkomstskärmspråk"
+
+#: inc/taxonomy-fields.php:231 inc/taxonomy-fields.php:232
+#: inc/taxonomy-fields.php:233
+msgid "Vendo"
+msgstr "Vendo"
+
+#: inc/taxonomy-fields.php:234
+msgid "All Vendo categories"
+msgstr "Alla Vendo kategorier"
+
+#: inc/taxonomy-fields.php:235
+msgid "Parent category"
+msgstr "Föräldrakategori"
+
+#: inc/taxonomy-fields.php:236
+msgid "Parent category:"
+msgstr "Föräldrakategori:"
+
+#: inc/taxonomy-fields.php:237
+msgid "New category"
+msgstr "Ny kategori"
+
+#: inc/taxonomy-fields.php:238
+#, fuzzy
+#| msgid "Add new category"
+msgid "Add new Vendo category"
+msgstr "Lägg till ny kategori"
+
+#: inc/taxonomy-fields.php:239
+msgid "Edit category"
+msgstr "Redigera kategori"
+
+#: inc/taxonomy-fields.php:240
+msgid "Update category"
+msgstr "Uppdateringskategori"
+
+#: inc/taxonomy-fields.php:241
+msgid "View category"
+msgstr "View kategori"
+
+#: inc/taxonomy-fields.php:242
+msgid "Separate items with commas"
+msgstr "Separata poster med kommatecken"
+
+#: inc/taxonomy-fields.php:243
+msgid "Add or remove categories"
+msgstr "Lägg till eller ta bort kategorier"
+
+#: inc/taxonomy-fields.php:244
+msgid "Choose from the most used"
+msgstr "Välj bland de mest använda"
+
+#: inc/taxonomy-fields.php:245
+msgid "Popular Vendo categories"
+msgstr "Populära Vendo kategorier"
+
+#: inc/taxonomy-fields.php:246
+msgid "Search categories"
+msgstr "Sökkategorier"
+
+#: inc/taxonomy-fields.php:247
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: inc/taxonomy-fields.php:248
+msgid "No categories yet here..."
+msgstr "Inga kategorier men här ..."
+
+#: inc/taxonomy-fields.php:249
+msgid "Categories list"
+msgstr "Kategorilista"
+
+#: inc/taxonomy-fields.php:250
+msgid "Categories list navigation"
+msgstr "Kategorier lista navigering"
+
+#: inc/tpl/form_fields.php:25
+#, fuzzy
+#| msgid "Display Text"
+msgid "Display text"
+msgstr "Displaytext"
+
+#: inc/tpl/form_fields.php:28
+msgid "Category name will be shown over menu item tile image"
+msgstr "Kategori namn kommer att visas över menyns kakel bild"
+
+#: inc/tpl/form_fields.php:39
+msgid "Show name in Vendo App"
+msgstr "Visa namn i Vendo App"
+
+#: inc/tpl/form_fields.php:46
+msgid "Hero Image"
+msgstr "Hjälte Image"
+
+#: inc/tpl/form_fields.php:58
+msgid "Tile Image"
+msgstr "Kakel bild"
+
+#: inc/tpl/general_settings.php:11
+msgid "Please, wait until the request process is over..."
+msgstr "Vänligen vänta tills begäran processen är över ..."
+
+#: inc/tpl/general_settings.php:17
+msgid "The synchronization is completed successfully!"
+msgstr "Synkroniseringen slutförts!"
+
+#: inc/tpl/general_settings.php:22
+#, fuzzy
+#| msgid "There were errors in synchronization. Please, try later..."
+msgid ""
+"There were errors in synchronization. Please, check the information below "
+"and try again..."
+msgstr "Det fanns fel i synkronisering. Vänligen försök senare..."
+
+#: inc/tpl/general_settings.php:23
+msgid "Information"
+msgstr "Information"
+
+#: inc/tpl/general_settings.php:29
+msgid "Vendo settings and sync"
+msgstr "Vendo-inställningar och synkronisering"
+
+#: inc/tpl/general_settings.php:32
+msgid "Compare data and sync changes only"
+msgstr "Jämför endast data och synkroniseringsändringar"
+
+#: inc/tpl/general_settings.php:32
+msgid "Partial Sync"
+msgstr "Delvis synkronisering"
+
+#: inc/tpl/general_settings.php:33
+msgid "Erase all products on Vendo server and sync all current ones"
+msgstr "Radera alla produkter på servern och synkronisera alla aktuella"
+
+#: inc/tpl/general_settings.php:33
+msgid "Full Sync"
+msgstr "Full synkronisering"
+
+#: inc/tpl/general_settings.php:34
+msgid "Call Vendo server API and check if user name and password are correct"
+msgstr ""
+"Samtal Vendo-server API och kolla om användarnamn och lösenord är korrekta"
+
+#: inc/tpl/general_settings.php:34
+msgid "Check Connection"
+msgstr "Kontrollera anslutning"
+
+#: inc/tpl/general_settings.php:38
+msgid "Autosync on any product update"
+msgstr "Autosync på någon produktuppdatering"
+
+#: inc/tpl/general_settings.php:44
+msgid "Autosync"
+msgstr "Automatisk synkronisering"
+
+#: inc/tpl/general_settings.php:49
+msgid "User"
+msgstr "Användare"
+
+#: inc/tpl/general_settings.php:54
+msgid "Password"
+msgstr "Lösenord"
+
+#: inc/tpl/general_settings.php:60
+#, fuzzy
+#| msgid "Check Connection"
+msgid "Checkout options"
+msgstr "Kontrollera anslutning"
+
+#: inc/tpl/general_settings.php:63
+msgid "Default shipping method for incoming orders"
+msgstr "Standard leveransmetod för inkommande order"
+
+#: inc/tpl/general_settings.php:63
+msgid "Default order shipping method"
+msgstr "Standard order leveransmetod"
+
+#: inc/tpl/general_settings.php:66
+msgid "Auto"
+msgstr "Automatisk"
+
+#: inc/tpl/general_settings.php:82
+msgid "Default order status for incoming orders"
+msgstr "Standard orderstatus för inkommande beställningar"
+
+#: inc/tpl/general_settings.php:82
+msgid "Default new orders status"
+msgstr "Standard nya orderstatus"
+
+#: inc/tpl/general_settings.php:97
+msgid "Default order status for completed Vendo orders"
+msgstr "Standard orderstatus för slutförda beställningar"
+
+#: inc/tpl/general_settings.php:97
+msgid "Default shipped orders status"
+msgstr "Standard skickad orderstatus"
+
+#: inc/tpl/general_settings.php:116
+msgid "Which server plugin refers to"
+msgstr "Vilken server plugin refererar till"
+
+#: inc/tpl/general_settings.php:116
+#, fuzzy
+#| msgid "Check Connection"
+msgid "Connection mode"
+msgstr "Kontrollera anslutning"
+
+#: inc/tpl/general_settings.php:119
+msgid "Live"
+msgstr "Leva"
+
+#: inc/tpl/general_settings.php:121
+msgid "Staging"
+msgstr "Iscensättning"
+
+#: inc/tpl/general_settings.php:123
+msgid "Live Staging"
+msgstr "Iscensättning Leva"
+
+#: inc/tpl/general_settings.php:129
+msgid "Click to add or remove welcome image"
+msgstr "Klicka för att lägga till eller ta bort välkomstbild"
+
+#: inc/tpl/general_settings.php:129
+msgid "Welcome screen image"
+msgstr "Välkommen skärmbild"
+
+#: inc/tpl/general_settings.php:142
+msgid "Save"
+msgstr "Spara"
+
+#~ msgid "Access denied!"
+#~ msgstr "Tillträde beviljas ej!"
+
+#~ msgid "Error!"
+#~ msgstr "Fel!"
+
+#~ msgid "TouchTech Integration"
+#~ msgstr "TouchTech Integration"
+
+#~ msgid "TouchTech Sync"
+#~ msgstr "TouchTech Sync"
+
+#~ msgid "By default the synchronization with TouchTech is automatic"
+#~ msgstr "Som standard synkroniseringen med Touchtech är automatisk"
+
+#~ msgid "API Test platform"
+#~ msgstr "API testplattform"
+
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
+
+#~ msgid ""
+#~ "This option allows automatic synchronization to TouchTech on actions: new "
+#~ "product published, published product updated."
+#~ msgstr ""
+#~ "Detta alternativ möjliggör automatisk synkronisering till Touchtech på "
+#~ "åtgärder: ny produkt publiceras, publicerad produkt uppdateras."
+
+#~ msgid "TouchTech Authentication:"
+#~ msgstr "Touchtech autentisering:"
+
+#~ msgid "Vendo product categories"
+#~ msgstr "Vendo produktkategorier"
+
+#~ msgid "TouchTech"
+#~ msgstr "TouchTech"
+
+#~ msgid "New Menu Item"
+#~ msgstr "Ny menypost"
+
+#~ msgid "Select an image to upload"
+#~ msgstr "Välj en bild att ladda upp"
+
+#~ msgid "Use this Image"
+#~ msgstr "Använd denna bild"
+
+#~ msgid "Vendo Menu Manager"
+#~ msgstr "Vendo menyhanteraren"
+
+#~ msgid "Preview"
+#~ msgstr "Förhandsvisning"
+
+#~ msgid "Top menu"
+#~ msgstr "Topp meny"
+
+#~ msgid "Sub menu"
+#~ msgstr "Under meny"
+
+#~ msgid "Sub menu item"
+#~ msgstr "Undermenyalternativ"
+
+#~ msgid "Expand All"
+#~ msgstr "Expandera alla"
+
+#~ msgid "Close All"
+#~ msgstr "Stäng alla"
+
+#~ msgid "Collect menu items from WooCommerce product categories"
+#~ msgstr "Samla menyalternativ från WooCommerce produktkategorier"
+
+#~ msgid "Collect Menus"
+#~ msgstr "Samla Menyer"
+
+#~ msgid "Add New Menu Item"
+#~ msgstr "Lägg ny menypost"
+
+#~ msgid "Please note, that Vendo allows only two menu levels: top and sub"
+#~ msgstr "Observera att Vendo tillåter endast två menynivåer: topp och under"
+
+#~ msgid "Selected Menu Properties"
+#~ msgstr "Valda menyn Egenskaper"
+
+#~ msgid "Visible"
+#~ msgstr "Synlig"
+
+#~ msgid "Choose an Image"
+#~ msgstr "Välj en bild"
+
+#~ msgid "Filters"
+#~ msgstr "Filter"
+
+#~ msgid "*Will be saved with Sub Menu Items only"
+#~ msgstr "* Sparas med endast Undermeny"
+
+#~ msgid "Edit categories"
+#~ msgstr "Redigera kategorier"
+
+#~ msgid "Top Menu Item"
+#~ msgstr "Toppmenyn"
+
+#~ msgid "Sub Menu Item"
+#~ msgstr "Undermeny Post"
+
+#~ msgid "Sync Settings"
+#~ msgstr "Synkroniserings inställningar"

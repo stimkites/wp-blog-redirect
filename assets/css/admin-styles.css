@@ -1,0 +1,110 @@
+.widefat td,
+.widefat th {
+    padding: 10px 15px;
+}
+
+.widefat {
+    counter-reset: rowNumber;
+}
+
+.widefat tbody tr {
+    counter-increment: rowNumber;
+}
+
+
+.widefat td.autonum:after {
+    content: counter(rowNumber);
+}
+
+.option-label {
+    font-style: italic;
+    display: block;
+}
+
+.select2-container .select2-selection--multiple {
+    min-height: 28px !important;
+}
+
+.select2-search.select2-search--inline {
+    margin-bottom: 0;
+}
+
+.remove-button {
+    padding: 4px 2px 0 2px !important;
+    border: 1px solid transparent;
+    font-family: "Dashicons";
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    display: inline-block;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    margin: 4px 0 0 1px;
+}
+
+.remove-button:after {
+    content: '\f182';
+}
+
+.remove-button:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+.dnd-tip,
+.dnd-list-handle {
+    font-family: "Dashicons";
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.dnd-tip:after {
+    content: '\f223';
+    cursor: help;
+    color: #000;
+}
+
+.dnd-list-handle:hover {
+    color: #000;
+    cursor: grab;
+}
+
+.dnd-list-handle:active:hover {
+    cursor: grabbing;
+    color: limegreen;
+}
+
+.dnd-list-handle:after {
+    content: '\f333';
+}
+
+.tpl {
+    display: none;
+}
+
+#lng-selector-example{
+    display: block;
+}
+
+a.go-render-example{
+    float: right;
+}
+
+a.success:after {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    font: 400 30px/30px dashicons;
+    color: limegreen;
+    content: "\f147";
+    position: absolute;
+}
